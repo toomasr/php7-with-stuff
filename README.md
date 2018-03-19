@@ -11,7 +11,7 @@ php:
     image: toomasr:php7-with-stuff
 ```
 
-I actually use it from *nginx* so my configuration looks like this. Please refer to [PHP Template App](https://github.com/toomasr/php-template-app) for a fully functioning example.
+I actually use it from **nginx** so my configuration looks like this. Please refer to [PHP Template App](https://github.com/toomasr/php-template-app) for a fully functioning example.
 
 ```
 web:
