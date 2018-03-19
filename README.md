@@ -4,17 +4,14 @@ After I needed a simple PHP Docker image with MySQL extension yet again I though
 
 # Usage
 
-I'm using it from my [PHP template](https://github.com/toomasr/php-template-app) but you don't have to. Easiest to get going is to add it to your `docker-compose.yml` like this.
+I'm using it from my [PHP Template App](https://github.com/toomasr/php-template-app) but you don't have to. Easiest to get going is to add it to your `docker-compose.yml` like this.
 
 ```
-	php:
+php:
     image: toomasr:php7-with-stuff
-    volumes:
-      - ./website/public_html:/var/www/html
-      - ./website/lib:/var/www/lib
 ```
 
-I actually use it from *nginx* so my configuration looks like this
+I actually use it from *nginx* so my configuration looks like this. Please refer to [PHP Template App](https://github.com/toomasr/php-template-app) for a fully functioning example.
 
 ```
 web:
